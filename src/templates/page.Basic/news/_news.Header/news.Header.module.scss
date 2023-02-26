@@ -1,0 +1,36 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.date {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight17;
+	color:       $fivefold;
+}
+///////////////////////////////
+.newsHeader {
+  display: block;
+  width: 100%;
+  height: 236px;
+}
+.breadcrumb {
+  display: inline-block;
+  position: relative;
+  top: 59px;
+  left: 296px;
+}
+.date {
+  position: relative;
+  top: 5px;
+  padding: 10px 17px;
+  background: rgba(102, 78, 249, 0.1);
+  border-radius: 18px;
+}
+.networks {
+  display: inline-block;
+  position: absolute;
+  top: 164px;
+  left: 794px;
+}

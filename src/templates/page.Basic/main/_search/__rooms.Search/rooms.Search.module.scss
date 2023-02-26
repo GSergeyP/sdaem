@@ -1,0 +1,224 @@
+@import '../../../../../common/scss/variables.scss';
+
+// typography
+.span-title,
+.span-button,
+.input,
+.a,
+.button {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+.content {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+.h4 {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight17;
+	color:       $fivefold;
+}
+///////////////////////////////
+.div {
+  width: 1062px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; 
+}
+.span {
+  margin-top: 16px;
+  height: 68px;
+  &.item1 {
+    width: 189.5px;
+  }
+  &.item2 {
+    width: 189px;
+  }
+  &.item3 {
+    width: 214px;
+  }
+  &.item4 {
+    width: 160.5px;
+  }
+  &.item5 {
+    width: 148.09px;
+  }
+  &.item6 {
+    width: 156.91px;
+  }
+  &.item {
+    background-color: $fivefold;
+    width: 1px;
+    opacity: 0.1;
+  }
+}
+.span-title {
+  position: absolute;
+  top: 15px;
+  color: $eighteenfold;
+  &.item1 {
+    left: 20px;
+  }
+  &.item2 {
+    left: 210px;
+  }
+  &.item3 {
+    left: 401px;
+  }
+}
+.span-button {
+  position: absolute;
+  top: 43px;
+  width: 136px;
+  height: 25px;
+  padding-top: 8px;
+  padding-left: 10px;
+  background-color: $quaternary;
+  border-radius: 20px;
+  border: 2px solid $quaternary;
+  color: $elevenfold;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(102, 78, 249, 0.1);
+  }
+  &.item {
+    border-color: $fivefold;
+    background-color: $secondary;
+  }
+  &.item1 {
+    left: 20px;
+  }
+  &.item2 {
+    left: 211px;
+  }
+  .span-button__icon {
+    position: absolute;
+    top: 8px;
+    left: 113px;
+    width: 36px;
+    height: 18px;
+    stroke: $fivefold;
+  }
+}
+.body {
+  position: absolute;
+  top: 90px;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  border-radius: 10px;
+  background-color: $secondary;
+  box-shadow: 0px 0px 40px rgba(135, 124, 202, 0.3);
+  list-style-type: none;
+  z-index: 5;
+  &.item1 {
+    left: 22px;
+  }
+  &.item2 {
+    left: 211px;
+  }
+  .content {
+    padding: 7px 14px;
+    border-radius: 10px;
+    color: $primary;
+    cursor: pointer;
+    &:hover {
+      background-color: $quaternary;
+    }
+  }
+}
+.input {
+  position: absolute;
+  top: 42px;
+  width: 50px;
+  height: 23px;
+  background-color: $quaternary;
+  padding: 5px 12px;
+  border: 2px solid $quaternary;
+  border-radius: 20px;
+  outline: none;
+  color: $primary;
+  cursor: pointer;
+  &.item1 {
+    left: 400px;
+  }
+  &.item2 {
+    left: 495px;
+  }
+  &:focus{
+    border-color: $fivefold;
+    background-color: $secondary;
+  }
+  &:hover {
+    background: rgba(102, 78, 249, 0.1);
+  }
+}
+.h4 {
+  position: absolute;
+  top: 36px;
+  left: 484px;
+}
+.a {
+  position: absolute;
+  text-decoration: none;
+  color: $primary;
+  &.item1 {
+    top: 39px;
+    left: 615px;
+  }
+  &.item2 {
+    top: 40px;
+    left: 790px;
+  }
+  .a-icon {
+    position: relative;
+    top: 3px;
+    left: 5px;
+    fill: $fivefold;
+    &.item1 {
+      width: 18px;
+      height: 18px;
+    }
+    &.item2 {
+      width: 12.09px;
+      height: 15px;
+    }
+  }
+}
+.button {
+  position: absolute;
+  top: 33px;
+  left: 903px;
+  width: 123px;
+  height: 37px;
+  padding-bottom: 6px;
+  background-color: $sixfold;
+  border-radius: 22px;
+  border: none;
+  color: $nineteenfold;
+  cursor: pointer;
+  &:hover {
+    background-color: $thirteenfold;
+  }
+  .button-icon {
+    position: relative;
+    top: 5px;
+    left: 3px;
+    width: 19px;
+    height: 19px;
+    transform: rotate(270deg);
+    stroke: $nineteenfold;
+  }
+}

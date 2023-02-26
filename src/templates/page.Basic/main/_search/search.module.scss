@@ -1,0 +1,117 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.h2 {
+  font-family: Inter;
+	font-size:   $fontSize30;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight36;
+	color:       $secondary;
+}
+.a {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight17;
+	color:       $secondary;
+  text-decoration: none;
+}
+///////////////////////////////
+.header {
+  display: flex;
+  position: relative;
+  top: 83px;
+  left: 328px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 629px;
+  height: 36px;
+}
+.h2 {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  &.color {
+    margin-left: 10px;
+    color: $thirteenfold;
+  }
+}
+.body {
+  display: block;
+  margin: 133px auto;
+  width: 1062px;
+  height: 143px;
+}
+.span-title {
+  display: grid;
+  position: relative;
+  top: -43px;
+  grid-template-columns: 174px 187px 133px 143px 425px;
+  grid-template-rows: 43px;
+  grid-template-areas:  "item1 item2 item3 item4 item5";
+  text-align: center;
+  .item1 {
+    grid-area: item1;
+    border-radius: 10px 0px 0px 0px;
+    padding-top: 13px;
+    &.active {
+      background-color: $secondary;
+      border-radius: 10px 10px 0px 0px;
+      color: $fivefold;
+      pointer-events: none;
+    }
+  }
+  .item2 {
+    grid-area: item2;
+    padding-top: 13px;
+    &.active {
+      background-color: $secondary;
+      border-radius: 10px 10px 0px 0px;
+      color: $fivefold;
+      pointer-events: none;
+    }
+  }
+  .item3 {
+    grid-area: item3;
+    padding-top: 13px;
+    &.active {
+      background-color: $secondary;
+      border-radius: 10px 10px 0px 0px;
+      color: $fivefold;
+      pointer-events: none;
+    }
+  }
+  .item4 {
+    grid-area: item4;
+    border-radius: 0px 10px 0px 0px;
+    padding-top: 13px;
+    &.active {
+      background-color: $secondary;
+      border-radius: 10px 10px 0px 0px;
+      color: $fivefold;
+      pointer-events: none;
+    }
+  }
+  .item5 {
+    grid-area: item5;
+    pointer-events: none;
+  }
+}
+.span-body {
+  display: block;
+  position: relative;
+  top: -44px;
+  width: 1062px;
+  height: 100px;
+  background: $secondary;
+  border-radius: 0px 10px 10px 10px;
+}
+.span-title__base {
+  display: block;
+  width: 637px;
+  height: 43px;
+  border-radius: 10px 10px 0px 0px;
+  background: rgba(45, 57, 136, 0.5);
+}

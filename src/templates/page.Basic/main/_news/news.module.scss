@@ -1,0 +1,84 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.h2 {
+  font-family: Inter;
+	font-size:   $fontSize25;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight30;
+  color:       $primary;
+}
+.h4 {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight150;
+  color:       $primary;
+}
+.p {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight400;
+	line-height: $lineHeight150;
+  color:       $primary;
+}
+///////////////////////////////
+.info {
+  width: 953px;
+  height: 551px;
+  .h2 {
+    display: inline-block;
+    position: relative;
+    top: 16px;
+    left: -326px;
+    margin: 0;
+    padding: 0;
+  }
+  .img {
+    position: relative;
+    top: 79px;
+    left: 80px;
+    width: 405.24px;
+    height: 230px;
+    float: left;
+    filter: drop-shadow(0px 15px 30px rgba(39, 95, 158, 0.1));
+    border-radius: 20px;
+    padding-right: 24px;
+    padding-bottom: 100px;
+  }
+  .h4 {
+    display: inline-block;
+    position: relative;
+    top: 32px;
+    left: 80px;
+  }
+  .p {
+    position: relative;
+    top: -2px;
+    left: 80px;
+    width: 840px;
+    text-align: justify;
+    margin-bottom: 22px;
+  }
+  .icon {
+    position: relative;
+    top: -202px;
+    left: 429px;
+    width: 70px;
+    height: 70px;
+    fill: $sixfold;
+  }
+}
+.list {
+  position: relative;
+  top: -551px;
+  left: 954px;
+  width: 406px;
+  height: 457px;
+  box-shadow: 0px 20px 40px rgba(135, 124, 202, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}

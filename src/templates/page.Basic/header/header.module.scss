@@ -1,0 +1,176 @@
+@import '../../../common/scss/variables.scss';
+
+// typography
+.button,
+.top-nav__item,
+.top-a__left,
+.top-a__right {
+	font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight400;
+	line-height: $lineHeight17;
+	color:       $tertiary;
+  text-decoration: none;
+}
+.bottom-nav__item {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight17;
+	color:       $primary;
+  text-decoration: none;
+} 
+.bottom-a {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight17;
+	color:       $secondary;
+  text-decoration: none;
+}
+///////////////////////////////
+.block {
+  width: 100%;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+}
+.top {
+  line-height: 40px;
+  height: 40px;
+  background-color: $quaternary;
+}
+.top-nav {
+  display: inline-block;
+  margin-left: 79px;
+  white-space: nowrap;
+  .top-nav__item {
+    margin-right: 57px;
+    padding-bottom: 8px;
+    border-bottom: 4px solid transparent;
+    &:hover {
+      border-bottom: 4px solid $sixfold;
+      color: $primary; 
+    }
+    &:hover > .top-nav__item-icon {
+      fill: $primary;
+    }
+  }
+  .top-nav__item-icon {
+    width: 8.06px;
+    height: 10px;
+    margin-right: 6px;
+    fill: $tertiary;
+  }
+}
+.top-a__left {
+  display: inline-block;
+  position: relative;
+  left: 228px;
+  padding-bottom: 8px;
+  border-bottom: 4px solid transparent;
+  &:hover {
+    border-bottom: 4px solid $sixfold;
+    color: $primary; 
+  }
+  .top-a__left-icon {
+    position: relative;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    margin-left: 12.5px;
+    stroke: $tertiary;
+  }
+}
+.top-a__right {
+  display: inline-block;
+  position: relative;
+  left: 268px;
+  color: $fivefold;
+  padding-bottom: 8px;
+  border-bottom: 4px solid transparent;
+  &:hover {
+    border-bottom: 4px solid $sixfold;
+    color: $primary; 
+  }
+}
+.bottom {
+  line-height: 58px;
+  height: 60px;
+  background-color: $secondary;
+}
+.bottom-img {
+  position: relative;
+  top: 3.5px;
+  left: 79px;
+}
+.bottom-nav {
+  display: inline-block;
+  margin-left: 402px;
+  white-space: nowrap;
+  .bottom-nav__item {
+    margin-right: 78.5px;
+    padding-bottom: 19px;
+    border-bottom: 4px solid transparent;
+    &:hover {
+      border-bottom: 4px solid $sixfold; 
+    }
+  }
+}
+.bottom-a {
+  display: inline-block;
+  margin-left: 13px;
+  padding: 10px 18px;
+  background: linear-gradient(90deg, $seventhfold 0%, $eightfold 94.5%);
+  border-radius: 19px;
+  &:hover {
+    background: linear-gradient(90deg, $ninefold 0%, $tenfold 94.5%);
+  }
+}
+.button {
+  position: relative;
+  top: -1px;
+  left: 268px;
+  margin-right: 44.5px;
+  padding: 8px 7px 8px 0;
+  height: 37px;
+  background: none;
+  border: none;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+  &:hover {
+    border-bottom: 4px solid $sixfold;
+  }
+  &.close {
+    color: $primary;
+    font-weight: 500;
+  }
+  &.open {
+    color: $fivefold;
+  }
+  .button-icon {
+    position: relative;
+    top: 3px;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    stroke: $tertiary;
+  }
+}
+.img {
+  position: relative;
+  top: -7px;
+  left: 24px;
+  margin-right: 33px;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.icon {
+  margin-left: 10px;
+  width: 18px;
+  height: 17.03px;
+  float: right;
+  stroke: $fivefold;
+}

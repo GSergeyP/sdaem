@@ -1,0 +1,30 @@
+@import '../../../common/scss/variables.scss';
+
+// typography
+.span {
+  font-family: Inter;
+	font-size:   $fontSize16;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight24;
+	color:       $secondary;
+}
+///////////////////////////////
+.span {
+  display: inline;
+  position: relative;
+  top: -308px;
+  left: 52px;
+  background-color: $seventeenfold;
+  border-radius: 33px;
+  text-align: center;
+  padding: 14px 77px;
+  .icon {
+    position: relative;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+    fill:rgba(255, 255, 255, 0.5);
+    margin-left: 10px; 
+  }
+}

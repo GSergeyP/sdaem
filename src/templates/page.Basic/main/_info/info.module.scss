@@ -1,0 +1,63 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+
+///////////////////////////////
+.container {
+  display: grid;
+  grid-template-columns: 953px 332.09px;
+  grid-template-rows: 270px;
+  grid-row-gap: 28px;
+  grid-template-areas:  "item1 item2"
+                        "item3 .";
+  margin-top: 85px;
+  height: 568px;
+  .container-top {
+    grid-area: item1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .container-bottom {
+    grid-area: item3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .container-right {
+    grid-area: item2;
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container-footer {
+  display: inline-block;
+  position: relative;
+  top: 42px;
+  left: -33px;
+  .icon {
+    width: 70px;
+    height: 70px;
+    fill: $twentytwofold;
+  }
+}
+.container-top__right,
+.container-bottom__left {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 407px;
+  height: 270px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 20px 40px rgba(135, 124, 202, 0.15));
+}
+.container-bottom__right {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 516px;
+  height: 270px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 20px 40px rgba(135, 124, 202, 0.15));
+}

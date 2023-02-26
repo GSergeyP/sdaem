@@ -1,0 +1,140 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.label,
+.textarea,
+.input {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight17;
+	color:       $elevenfold;
+}
+.button {
+  font-family: Inter;
+	font-size:   $fontSize16;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight24;
+	color:       $secondary;
+}
+///////////////////////////////
+.form {
+  position: relative;
+  top: 78px;
+  width: 625px;
+  min-height: 516px;
+  background-color: $secondary;
+  box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.2);
+  border-radius: 10px;
+}
+.label {
+  display: inline-block;
+  &.user {
+    position: relative;
+    top: 23px;
+    left: 39px;
+  }
+  &.mail {
+    position: relative;
+    top: -24px;
+    left: 330px;
+  }
+  &.msg {
+    position: relative;
+    top: 54px;
+    left: 41px;
+  }
+}
+.input {
+  display: inline-block;
+  padding: 14px 52px;
+  width: 152px;
+  border: 2px solid $quaternary;
+  border-radius: 30px;
+  background-color: $quaternary;
+  outline: none;
+  &:focus {
+    background-color: $secondary;
+    border-color: $fivefold;
+  }
+  &.user {
+    position: relative;
+    top: 49px;
+    left: -67px;
+  }
+  &.mail {
+    position: relative;
+    top: 49px;
+    left: -171px;
+  }
+  &:focus + .icon {
+    fill: $fivefold;
+  }
+}
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  fill: $elevenfold;
+  &.user {
+    position: relative;
+    top: 54px;
+    left: -307px;
+  }
+  &.mail {
+    position: relative;
+    top: 52px;
+    left: -413px;
+  }
+}
+.icon-error {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  fill: $seventeenfold;
+  &.user {
+    position: relative;
+    top: 54px;
+    left: -127px;
+  }
+  &.mail {
+    position: relative;
+    top: 54px;
+    left: -231px;
+  }
+}
+.textarea {
+  position: relative;
+  top: 16px;
+  left: 0;
+  width: 510px;
+  height: 170px;
+  background-color: $quaternary;
+  border: 2px solid $quaternary;
+  border-radius: 30px;
+  outline: none;
+  resize: none;
+  padding: 13px 18px;
+  overflow: hidden;
+  &:focus {
+    background-color: $secondary;
+    border-color: $fivefold;
+  }
+}
+.button {
+  display: inline;
+  position: relative;
+  top: 106px;
+  left: 215px;
+  width: 200px;
+  height: 48px;
+  background-color: $fivefold;
+  border-radius: 33px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: $twelvefold;
+  }
+}

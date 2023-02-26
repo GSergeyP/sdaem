@@ -1,0 +1,77 @@
+@import '../../../../../common/scss/variables.scss';
+
+// typography
+.h2 {
+  font-family: Inter;
+	font-size:   $fontSize25;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight30;
+  color:       $secondary;
+}
+.p {
+  font-family: Inter;
+	font-size:   $fontSize16;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight19;
+  color:       $secondary;
+}
+.button {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight17;
+  color:       $primary;
+}
+///////////////////////////////
+.container {
+  position: relative;
+  background-image: url(../../../../../common/img/general/bg1.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% 440px;
+  width: 100%;
+  height: 100%;
+}
+.h2 {
+  display: inline-block;
+  position: relative;
+  top: 55px;
+  left: 468px;
+}
+.p {
+  position: relative;
+  top: 38px;
+  left: 542px;
+  width: 340px;
+  text-align: center;
+}
+.button {
+  position: relative;
+  top: 45px;
+  left: 639px;
+  width: 167px;
+  height: 37px;
+  border-radius: 19px;
+  border: none;
+  background-color: $secondary;
+  cursor: pointer;
+  &:hover {
+    color: $thirteenfold;
+  }
+  .button-icon {
+    position: relative;
+    top: 1px;
+    width: 12.09px;
+    height: 15px;
+    margin-right: 11px;
+    fill: $sixfold;
+  }
+}
+.span {
+  position: relative;
+  top: 178px;
+  left: 80px;
+}

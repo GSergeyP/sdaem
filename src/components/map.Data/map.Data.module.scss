@@ -1,0 +1,23 @@
+@import '../../common/scss/variables.scss';
+
+// typography
+.button {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight17;
+  color:       $primary;
+}
+///////////////////////////////
+.button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 167px;
+  height: 37px;
+  border: 1px solid $eighteenfold;
+  background-color: $secondary;
+  z-index: 5;;
+  cursor: pointer;
+}

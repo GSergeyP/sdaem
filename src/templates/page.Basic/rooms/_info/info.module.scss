@@ -1,0 +1,49 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.label {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight400;
+	line-height: $lineHeight100;
+	color:       $fivefold;
+}
+///////////////////////////////
+.div {
+  width: 100%;
+  height: 223px;
+  background: linear-gradient(90deg, rgb(148, 175, 255, 0.1) 0%, rgb(78, 100, 249, 0.1) 94.5%);
+}
+.breadcrumb {
+  position: relative;
+  top: 41px;
+  left: 80px;
+}
+.labelstock {
+  display: flex;
+  position: relative;
+  top: 44px;
+  left: 80px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  width: 1280px;
+}
+.label {
+  padding: 6px 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background: rgba(102, 78, 249, 0.1);
+  border-radius: 17px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(102, 78, 249, 0.2);;
+  }
+}
+.icon {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+  fill: $fivefold;
+}

@@ -1,0 +1,89 @@
+@import '../../common/scss/variables.scss';
+
+// typography
+.h3 {
+  font-family: Inter;
+	font-size:   $fontSize16;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight19;
+	color:       $primary;
+}
+.p {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight400;
+	line-height: $lineHeight17;
+	color:       $elevenfold;
+}
+.card-bottom__span {
+  font-family: Inter;
+  font-size:   $fontSize14;
+  font-style:  $fontStyleNormal;
+  font-weight: $fontWeight500;
+  line-height: $lineHeight17;
+  color:       $tertiary;
+}
+.card-bottom__a {
+  font-family: Inter;
+  font-size:   $fontSize14;
+  font-style:  $fontStyleNormal;
+  font-weight: $fontWeight700;
+  line-height: $lineHeight17;
+  color:       $fivefold;
+  text-decoration: none;
+}
+///////////////////////////////
+.card {
+  display: block;
+  width: 406px;
+  height: 500px;
+  background-color: $secondary;
+  border-radius: 10px;
+  overflow: hidden;
+  filter: drop-shadow(0px 20px 40px rgba(135, 124, 202, 0.15));
+}
+.img {
+  width: 406px;
+  height: 226.46px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.h3 {
+  margin: 26px auto 15px auto;
+  width: 369px;
+  height: 38px;
+  overflow: hidden;
+}
+.p {
+  margin: 0 auto;
+  width: 369px;
+  height: 105px;
+  overflow: hidden;
+  border-bottom: 1px solid $quaternary;
+  text-align: justify; 
+}
+.card-bottom {
+  margin: 0 auto;
+  width: 369px;
+  height: 122.54px;
+  overflow: hidden;
+}
+.card-bottom__span {
+  position: relative;
+  top: 24px;
+  left: 2px;
+  padding: 10px 7px;
+  border-radius: 18px;
+  background-color: $quaternary;
+}
+.card-bottom__a {
+  position: relative;
+  top: -5px;
+  left: 285px;
+  padding: 10px 16px;
+  border-radius: 18px;
+  background-color: $quaternary;
+}

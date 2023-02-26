@@ -1,0 +1,108 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.h2 {
+  font-family: Inter;
+	font-size:   $fontSize25;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight30;
+	color:       $primary;
+}
+.p {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight400;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+.button {
+  font-family: Inter;
+	font-size:   $fontSize16;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight24;
+	color:       $primary;
+}
+///////////////////////////////
+.block {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  ///////////
+  animation: bgShow 1s linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  &.close {
+    animation: bgHide 1s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+}
+@keyframes bgShow {
+  from {background-color: transparency;}
+  to {background: rgba(46, 46, 46, 0.7);}
+}
+@keyframes bgHide {
+  from {background: rgba(46, 46, 46, 0.7);}
+  to {background-color: transparency;} 
+}
+.div {
+  width: 406px;
+  height: 313px;
+  background-color: $secondary;
+  box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.2);
+  border-radius: 10px;
+  ///////////
+  animation: blockShow 1s ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  &.close {
+    animation: blockHide 1s ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+}
+@keyframes blockShow {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes blockHide {
+  from {opacity: 1;}
+  to {opacity: 0;} 
+}
+.h2 {
+  position: relative;
+  top: 29px;
+  left: 104px;
+  width: 200px;
+  text-align: center;
+}
+.p {
+  position: relative;
+  top: 29px;
+  left: 54px;
+  width: 300px;
+  text-align: center;
+}
+.button {
+  position: relative;
+  top: 44px;
+  left: 125px;
+  width: 161px;
+  height: 48px;
+  background-color: $sixfold;
+  border: none;
+  border-radius: 33px;
+  cursor: pointer;
+  &:hover {
+    background-color: $thirteenfold;
+  }
+}

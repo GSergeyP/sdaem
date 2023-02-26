@@ -1,0 +1,63 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.button {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+.content {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+///////////////////////////////
+.button {
+  display: inline-block;
+  position: relative;
+  top: -58px;
+  left: 297px;
+  padding-bottom: 19px;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+  &:hover {
+    border-bottom: 4px solid $sixfold;
+  }
+}
+.button-icon {
+  position: relative;
+  top: 2px;
+  width: 12.09px;
+  height: 15px;
+  margin-left: 13px;
+  fill: $sixfold;
+}
+.body {
+  position: relative;
+  top: -35px;
+  left: 296px;
+  width: 242px;
+  height: 222px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 0px 40px rgba(135, 124, 202, 0.3);
+  border-radius: 10px;
+  background-color: $secondary;
+  list-style-type: none;
+  z-index: 5;
+}
+.content {
+  margin-top: 2px;
+  padding: 9px 0 9px 14px;
+  cursor: pointer;
+  &:hover {
+    background-color: $quaternary;
+    border-radius: 10px;
+  }
+}
