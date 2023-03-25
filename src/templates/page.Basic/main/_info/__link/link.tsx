@@ -48,7 +48,7 @@ const Link = () => {
             data={[{
               classes: clsx(style.a, style.item1),
               title: 'Квартиры в ' + item.cityOther,
-              url: 'rooms/'+item.id
+              url: 'sdaem/rooms/'+item.id
             }]} 
           />
           <Total id={item.id} url={URL} />
