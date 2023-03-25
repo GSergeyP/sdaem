@@ -1,0 +1,74 @@
+$primary:         #1E2123;
+$secondary:       #FFFFFF;
+$tertiary:        #8291A3;
+$quaternary:      #F8F8F8;
+$fivefold:        #664EF9;
+$sixfold:         #FFD54F;
+$seventhfold:     #9D94FF;
+$eightfold:       #6B50E9;
+$ninefold:        #867CfC;
+$tenfold:         #6929F3;
+$elevenfold:      #686868;
+$twelvefold:      #5C35F9;
+$thirteenfold:    #FEC100;
+$fourteenfold:    #5039BD;
+$fifteenfold:     #F4F5FA;
+$sixteenfold:     #E4E2E2;
+$seventeenfold:   #EB5757;
+$eighteenfold:    #BDBDBD;
+$nineteenfold:    #242424;
+$twentyfold:      #612BFB;
+$twentyonefold:   #6B50E9;
+$twentytwofold:   #FEB700;
+$twentythreefold: #F5F3FF;
+$twentyfourfold:  #7B519D;
+$twentyfivefold:  #0DBB41;
+$twentysixfold:   #7A7F86;
+//$twentysevenfold: #F0F0F0;
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/InterRegular.eot') format('enbedded-opentype'), url('../fonts/InterRegular.ttf') format('truetype'), url('../fonts/InterRegular.woff') format('woff');
+}
+
+$fontSize11:           11px;
+$fontSize12:           12px;
+$fontSize13:           13px;
+$fontSize13_7:         13.7px;
+$fontSize14:           14px;
+$fontSize16:           16px;
+$fontSize18:           18px;
+$fontSize20:           20px;
+$fontSize25:           25px;
+$fontSize30:           29.5px;
+$fontSize60:           60px;
+
+
+$fontStyleNormal:      normal;
+
+
+$fontWeight400:         400;
+$fontWeight500:         500;
+$fontWeight600:         600;
+$fontWeight700:         700;
+
+
+
+$lineHeight13:         13px;
+$lineHeight14:         14px;
+$lineHeight15:         15px;
+$lineHeight16:         16px;
+$lineHeight17:         17px;
+$lineHeight19:         19px;
+$lineHeight20:         20px;
+$lineHeight22:         22px;
+$lineHeight24:         24px;
+$lineHeight30:         30px;
+$lineHeight36:         36px;
+$lineHeight73:         73px;
+
+
+
+$lineHeight100:         100%;
+$lineHeight150:         150%;

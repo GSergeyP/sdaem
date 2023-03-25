@@ -1,0 +1,108 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.h2 {
+  font-family: Inter;
+	font-size:   $fontSize30;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight100;
+	color:       $secondary;
+}
+.p {
+  font-family: Inter;
+	font-size:   $fontSize16;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight150;
+	color:       $secondary;
+}
+.li {
+  font-family: Inter;
+	font-size:   $fontSize18;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight150;
+	color:       $secondary;
+}
+.li-other {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight400;
+	line-height: $lineHeight150;
+	color:       $secondary;
+}
+///////////////////////////////
+.h2 {
+  position: relative;
+  top: 52px;
+  left: 80px;
+}
+.p {
+  position: relative;
+  top: 58px;
+  left: 79px;
+  width: 500px;
+  padding-bottom: 277px;
+  &.other {
+    display: flex;
+    flex-direction: row;
+    padding: 21px 50px 11px 60px;
+    width: 405px;
+    background-color: rgba(80, 57, 189, 0.5);
+    border-radius: 10px;
+  }
+  .p-icon {
+    position: relative;
+    top: -5px;
+    left: -34px;
+    width: 58px;
+    height: 58px;
+    margin-right: -11px;
+    fill: $fourteenfold;
+  }
+}
+.ul {
+  position: relative;
+  top: -318px;
+  left: 40px;
+  .li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    .li-icon {
+      position: relative;
+      top: 8px;
+      width: 15px;
+      height: 15px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 6px 6px;
+      margin-right: 22px;
+      border-radius: 17px;
+      fill: $secondary;
+      overflow: visible;
+    }
+  }
+  .li-other {
+    position: relative;
+    top: 23px;
+    list-style-type: none;
+  }
+}
+.a {
+  position: relative;
+  top: -490px;
+  left: 324px;
+  padding: 8px 5px 2px 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 13px;
+  border-radius: 25px;
+  &:hover > .a-icon {
+    fill: $primary;
+  }
+}
+.a-icon {
+  width: 16.67px;
+  height: 16.67px;
+  fill: $secondary;
+}

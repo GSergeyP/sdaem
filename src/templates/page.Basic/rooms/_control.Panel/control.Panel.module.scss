@@ -1,0 +1,178 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.span-button,
+.span-list,
+.span-tile,
+.a {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight17;
+	color:       $primary;
+  text-decoration: none;
+}
+.content {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+.h4{
+  font-family: Inter;
+	font-size:   $fontSize20;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight100;
+	color:       $primary;
+}
+///////////////////////////////
+.div {
+  position: relative;
+  width: 100%;
+  height: 199px;
+}
+.span-button {
+  position: absolute;
+  top: 19px;
+  left: 101px;
+  width: 195px;
+  height: 26px;
+  padding-top: 10px;
+  padding-left: 37px;
+  background-color: $secondary;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+  cursor: pointer;
+  &:hover {
+    background-color: $quaternary;
+  }
+  .span-button__icon-sorting {
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    width: 15px;
+    height: 15px;
+    fill: $twentysixfold;
+  }
+  .span-button__icon-mark {
+    position: absolute;
+    top: 10px;
+    left: 193px;
+    width: 36px;
+    height: 18px;
+    stroke: $fivefold;
+  }
+}
+.body {
+  position: absolute;
+  top: 65px;
+  left: 101px;
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  border-radius: 10px;
+  background-color: $secondary;
+  box-shadow: 0px 0px 40px rgba(135, 124, 202, 0.3);
+  list-style-type: none;
+  z-index: 5;
+  .content {
+    padding: 7px 14px;
+    border-radius: 10px;
+    color: $primary;
+    cursor: pointer;
+    &:hover {
+      background-color: $quaternary;
+    }
+  }
+}
+.span-list {
+  position: absolute;
+  top: 19px;
+  left: 882px;
+  width: 107px;
+  height: 28px;
+  padding-top: 10px;
+  background-color: $secondary;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+  cursor: pointer;
+  &:hover {
+    background-color: $quaternary;
+  }
+  &.active {
+    background: none;
+    box-shadow: none;
+    font-weight: 500;
+    cursor: default
+  }
+}
+.span-tile {
+  position: absolute;
+  top: 19px;
+  left: 1010px;
+  width: 107px;
+  height: 28px;
+  padding-top: 10px;
+  background-color: $secondary;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+  cursor: pointer;
+  &:hover {
+    background-color: $quaternary;
+  }
+  &.active {
+    background: none;
+    box-shadow: none;
+    font-weight: 500;
+    cursor: default
+  }
+}
+.span-icon {
+  position: relative;
+  top: 2px;
+  left: 15px;
+  margin-right: 25px;
+  width: 14px;
+  height: 14px;
+  fill: $fivefold;
+  &.active {
+    fill: $twentysixfold;
+  }
+}
+.h4 {
+  position: absolute;
+  top: 140px;
+  left: 80px;
+  margin: 0;
+  padding: 0;
+}
+.a {
+  position: absolute;
+  top: 21px;
+  left: 1180px;
+  width: 185px;
+  height: 28px;
+  padding-top: 10px;
+  background-color: $secondary;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+  white-space: nowrap;
+  cursor: pointer;
+  &:hover {
+    background-color: $quaternary;
+  }
+  .a-icon {
+    position: relative;
+    top: 2px;
+    left: 15px;
+    margin-right: 25px;
+    fill: $fivefold;
+    width: 11.28px;
+    height: 14px;
+  }
+}
+

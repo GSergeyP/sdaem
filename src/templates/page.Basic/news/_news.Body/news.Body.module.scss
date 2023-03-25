@@ -1,0 +1,40 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.p {
+  font-family: Inter;
+	font-size:   $fontSize16;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight400;
+	line-height: $lineHeight24;
+	color:       $primary;
+}
+///////////////////////////////
+.newsBody {
+  display: block;
+  margin: 0 auto;
+  width: 844px;
+}
+.icon {
+  position: relative;
+  top: 80px;
+  left: -114px;
+  width: 70px;
+  height: 70px;
+  fill: $sixfold;
+}
+.img {
+  position: relative;
+  top: -75px;
+  width: 844px;
+  height: 563.24px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 20px 40px rgba(39, 95, 158, 0.1));
+}
+.p {
+  position: relative;
+  top: -54px;
+  width: 100%;
+  margin-bottom: 24px;
+  text-align: justify;
+}

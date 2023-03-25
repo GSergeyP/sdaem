@@ -1,0 +1,28 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+
+///////////////////////////////
+.div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 80px;
+  left: 33px;
+}
+.a {
+  width: 43px;
+  height: 43px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 15px;
+  border-radius: 25px;
+  &:hover > .a-icon {
+    fill: $primary;
+  }
+}
+.a-icon {
+  margin: 6.5px;
+  width: 30px;
+  height: 30px;
+  fill: $secondary;
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "id": 1,
+  "city": "Брест",
+  "cityOther": "Бресте",
+  "cityOther2": "Бресту",
+  "latitude": 52.09,
+  "longitude": 23.67
+ },
+ {
+  "id": 2,
+  "city": "Витебск",
+  "cityOther": "Витебске",
+  "cityOther2": "Витебску",
+  "latitude": 55.18,
+  "longitude": 30.20
+ },
+ {
+  "id": 3,
+  "city": "Гомель",
+  "cityOther": "Гомеле",
+  "cityOther2": "Гомелю",
+  "latitude": 52.42,
+  "longitude": 31.01
+ },
+ {
+  "id": 4,
+  "city": "Гродно",
+  "cityOther": "Гродно",
+  "cityOther2": "Гродно",
+  "latitude": 53.68,
+  "longitude": 23.83
+ },
+ {
+  "id": 5,
+  "city": "Минск",
+  "cityOther": "Минске",
+  "cityOther2": "Минску",
+  "latitude": 53.90,
+  "longitude": 27.56
+ },
+ {
+  "id": 6,
+  "city": "Могилев",
+  "cityOther": "Могилеве",
+  "cityOther2": "Могилеву",
+  "latitude": 53.89,
+  "longitude": 30.33
+ }
+]

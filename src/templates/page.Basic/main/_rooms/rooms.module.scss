@@ -1,0 +1,225 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.h3 {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight17;
+}
+.h2 {
+  font-family: Inter;
+	font-size:   $fontSize25;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight30;
+  color:       $primary;
+}
+.button {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight17;
+  color:       $elevenfold;
+}
+h1,
+.span-h1 {
+  font-family: Inter;
+	font-size:   $fontSize60;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight73;
+  color:       $primary;
+  &.span-h1 {
+    color:     $fivefold;
+  } 
+}
+h4 {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight17;
+  color:       $tertiary; 
+}
+.a {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight17;
+  color:       $secondary; 
+  text-decoration: none;
+}
+///////////////////////////////
+.header {
+  position: relative;
+  width: 100%;
+  height: 154px;
+}
+.h3 {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: 80px;
+  background: linear-gradient(90deg, #9D94FF 0%, #6B50E9 94.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.h2 {
+  display: inline-block;
+  position: relative;
+  top: 44px;
+  left: -77px;
+}
+.button {
+  position: absolute;
+  top: 58px;
+  height: 29px;
+  padding-top: 11px;
+  background-color: $secondary;
+  box-shadow: 0px 10px 20px rgba(0, 96, 206, 0.1);
+  border-radius: 25px;
+  border: 2px solid $secondary;
+  color: $elevenfold;
+  cursor: pointer;
+  &.item1 {
+    width: 142px;
+    right: 295px;
+    padding-left: 41px;
+  }
+  &.item2 {
+    width: 166px;
+    right: 80px;
+    padding-left: 17px;
+  }
+  &:hover {
+    border-color: $fivefold;
+    background-color: $secondary;
+  }
+}
+.icon {
+  position: absolute;
+  top: 10px;
+  left: 145px;
+  width: 36px;
+  height: 20px;
+  stroke: $fivefold;
+}
+.icon-metro {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+  width: 20px;
+  height: 20.67px;
+  margin-right: 10px;
+  fill: $eighteenfold;
+}
+.block {
+  position: absolute;
+  top: 110px;
+  margin: 0;
+  padding: 0;
+  width: 185px;
+  border-radius: 10px;
+  background-color: $secondary;
+  box-shadow: 0px 0px 40px rgba(135, 124, 202, 0.3);
+  list-style-type: none;
+  z-index: 5;
+  &.item1 {
+    right: 292px;
+  }
+  &.item2 {
+    right: 77px;
+  }
+  .content {
+    padding: 7px 14px;
+    border-radius: 10px;
+    color: $primary;
+    cursor: pointer;
+    &:hover {
+      background-color: $quaternary;
+    }
+  }
+}
+///////////////////////////////////////////////////////////////////////////
+.body {
+  display: grid;
+  width: 1279.4px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30.7px;
+}
+.footer {
+  position: relative;
+  width: 100%;
+  height: 294px;
+  text-align: center;
+  .footer-icon {
+    margin-top: 39px;
+    width: 41px;
+    height: 39.2px;
+    stroke: $fivefold;
+    fill: transparent;
+    cursor: pointer;
+    &.item1 {
+      margin-right: 13px;
+      transform: rotate(180deg);
+    }
+    &:hover {
+      fill: rgba(102, 78, 249, 0.1);
+    }
+  }
+  .span {
+    display: inline-block;
+    position: absolute;
+    top: 108px;
+    left: 67px;
+    width: 217px;
+    height: 94.5px;
+    border-right: 1px solid rgb(102, 78, 249, 0.3);
+    
+    .h1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      padding: 0;
+      margin: 0 15px;
+      .span-h1 {
+        position: relative;
+        top: -2px;
+        left: 5px;
+      }
+    }
+    .h4 {
+      padding: 0;
+      margin: 6px 0;
+    }
+  }
+  .a {
+    position: absolute;
+    top: 140px;
+    left: 309px;
+    width: 174px;
+    height: 34px;
+    padding-top: 3px;
+    background: linear-gradient(90deg, $seventhfold 0%, $eightfold 94.5%);
+    box-shadow: 0px 15px 40px rgba(0, 96, 206, 0.15);
+    border-radius: 17px;
+    &:hover {
+      background: linear-gradient(90deg, $ninefold 0%, $tenfold 94.5%);
+    }
+    .a-icon {
+      position: relative;
+      top: 6px;
+      left: 5px;
+      width: 20px;
+      height: 20px;
+      stroke: $secondary;
+      transform: rotate(270deg);
+    }
+  }
+}

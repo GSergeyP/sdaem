@@ -1,0 +1,33 @@
+@import '../../common/scss/variables.scss';
+
+// typography
+.span {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight400;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+///////////////////////////////
+.a {
+  position: relative;
+  top: 4px;
+  left: 15px;
+  padding: 13px 7.5px 4px 7px;
+  background: rgba(102, 78, 249, 0.1);
+  margin-right: 20px;
+  border-radius: 19px;
+  z-index: 1;
+  &:hover {
+    background-color: $fifteenfold;
+  }
+  &:hover > .a-icon {
+    fill: $primary !important;
+  }
+  .a-icon {
+    width: 19.82px;
+    height: 19.82px;
+    fill: $fivefold;
+  }
+}

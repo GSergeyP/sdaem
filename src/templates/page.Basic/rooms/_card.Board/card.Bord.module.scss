@@ -1,0 +1,39 @@
+@import '../../../../common/scss/variables.scss';
+
+// typography
+.err {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+///////////////////////////////
+.tile {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 31px;
+  grid-row-gap: 45px;
+  margin: 0 auto;
+  width: 1279.4px;
+}
+.list {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: nowrap; 
+  gap: 31px;
+  width: 1280px;
+  margin: 0 auto;
+}
+.pagination {
+  height: 120px;
+}
+.networks {
+  display: inline-block;
+  position: relative;
+  top: -55px;
+  left: 1010px;
+}

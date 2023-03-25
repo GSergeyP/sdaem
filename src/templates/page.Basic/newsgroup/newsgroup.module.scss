@@ -1,0 +1,42 @@
+@import '../../../common/scss/variables.scss';
+
+// typography
+.err {
+  font-family: Inter;
+	font-size:   $fontSize16;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight19;
+	color:       $primary;
+}
+///////////////////////////////
+.block {
+  display: block;
+  width: 100%;
+  background-image: url('../../../common/svg/backgroundsearch.svg');
+  background-position: right 30px;
+  background-repeat: no-repeat;
+}
+.breadcrumb {
+  position: relative;
+  top: 42px;
+  left: 80px;
+}
+.card_News {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 30.1px;
+  grid-row-gap: 30px;
+  width: 1278.2px;
+  margin: 43px auto 0 auto;
+}
+.pagination {
+  display: block;
+  height: 187px;
+}
+.err {
+  position: relative;
+  top: -20px;
+  left: 660px;
+}

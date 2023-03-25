@@ -1,0 +1,42 @@
+@import '../../common/scss/variables.scss';
+
+// typography
+.li {
+  font-family: Inter;
+  font-size:   $fontSize18;
+  font-style:  $fontStyleNormal;
+  font-weight: $fontWeight400;
+  line-height: $lineHeight22;
+  color:       $elevenfold;
+  &.active {
+    font-family: Inter;
+    font-size:   $fontSize18;
+    font-style:  $fontStyleNormal;
+    font-weight: $fontWeight700;
+    line-height: $lineHeight22;
+    color:       $primary;
+  }
+}
+///////////////////////////////
+.ul {
+  display: block;
+  position: relative;
+  top: 64px;
+  left: 42px;
+  cursor: pointer;
+  .li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 4px;
+    padding: 0 5px;
+    &.active {
+      border-bottom: 2px solid $sixfold;
+      &:hover {
+        border-bottom: 2px solid $sixfold;
+      }
+    }
+    &:hover {
+      border-bottom: 2px solid $sixteenfold;
+    }
+  }
+}

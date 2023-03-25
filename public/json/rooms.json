@@ -1,0 +1,2312 @@
+[
+  {
+    "id" : 6,
+    "id_room" : 1,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {               
+        "district": "Струшня",
+        "streetName": "Джамбула",
+        "streetType": "пер",
+        "houseNumber": 9,
+        "metro": "нет",
+        "latitude": 53.899106, 
+        "longitude": 30.314485
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 90.88,
+    "room": 2,
+    "square": 65.5,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 3
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 6,
+    "id_room" : 2,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address": [
+      {
+        "district": "Ленинский",
+        "streetName": "Мира",
+        "streetType": "просп",
+        "houseNumber": 73,
+        "metro": "нет",
+        "latitude": 53.917140, 
+        "longitude": 30.375876
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 60.99,
+    "room": 2,
+    "square": 45.7,
+    "beds":[
+      {
+        "bed": 1,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 0,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 6,
+    "id_room" : 3,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Ленинский",
+        "streetName": "Крупской",
+        "streetType": "ул",
+        "houseNumber": 99,
+        "metro": "нет",
+        "latitude": 53.940995,
+        "longitude": 30.355230 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 51.21,
+    "room": 1,
+    "square": 25.1,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 6,
+    "id_room" : 4,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Ленинский",
+        "streetName": "Вокзальная",
+        "streetType": "ул",
+        "houseNumber": 32,
+        "metro": "нет",
+        "latitude": 53.926397,
+        "longitude": 30.331925
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 51.21,
+    "room": 3,
+    "square": 88.2,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 3
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 6,
+    "id_room" : 5,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Ленинский",
+        "streetName": "1-й Рабочий",
+        "streetType": "пер",
+        "houseNumber": 5,
+        "metro": "нет",
+        "latitude": 53.894888,
+        "longitude": 30.345252
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 89.91,
+    "room": 3,
+    "square": 99.5,
+    "beds":[
+      {
+        "bed": 5,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 6,
+    "id_room" : 6,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Вейно",
+        "streetName": "Строителей",
+        "streetType": "ул",
+        "houseNumber": 8,
+        "metro": "нет",
+        "latitude": 53.833851, 
+        "longitude": 30.395819
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 37.04,
+    "room": 2,
+    "square": 48.4,
+    "beds":[
+      {
+        "bed": 5,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 0,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "id_room" : 7,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {               
+        "district": "Ленинский",
+        "streetName": "Доватора",
+        "streetType": "ул",
+        "houseNumber": 14,
+        "metro": "нет",
+        "latitude": 53.693351, 
+        "longitude": 23.826492
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 77.81,
+    "room": 4,
+    "square": 150.5,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 3
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "id_room" : 8,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address": [
+      {
+        "district": "Октябрьский",
+        "streetName": "Советских Пограничников",
+        "streetType": "ул",
+        "houseNumber": "110А",
+        "metro": "нет",
+        "latitude": 53.671860, 
+        "longitude": 23.798725 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 42.99,
+    "room": 3,
+    "square": 78.7,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "id_room" : 9,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Октябрьский",
+        "streetName": "Космонавтов",
+        "streetType": "просп",
+        "houseNumber": 8,
+        "metro": "нет",
+        "latitude": 53.675620, 
+        "longitude": 23.851933
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 86.25,
+    "room": 3,
+    "square": 58.5,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 3
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 0,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "id_room" : 10,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Грандичи",
+        "streetName": "Валентины Макаровой",
+        "streetType": "ул",
+        "houseNumber": 8,
+        "metro": "нет",
+        "latitude": 53.720094, 
+        "longitude": 23.879859
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 67.65,
+    "room": 3,
+    "square": 98.3,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "id_room" : 11,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Девятовка",
+        "streetName": "Дзержинского",
+        "streetType": "ул",
+        "houseNumber": "95к1",
+        "metro": "нет",
+        "latitude": 53.701464, 
+        "longitude": 23.842789
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 71.26,
+    "room": 3,
+    "square": 74.5,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 0,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "id_room" : 12,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Исторический Центр",
+        "streetName": "Свердлова",
+        "streetType": "ул",
+        "houseNumber": 11,
+        "metro": "нет",
+        "latitude": 53.675487, 
+        "longitude": 23.836365
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 34.74,
+    "room": 1,
+    "square": 30.4,
+    "beds":[
+      {
+        "bed": 1,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "id_room" : 13,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Октябрьский",
+        "streetName": "Лидская",
+        "streetType": "ул",
+        "houseNumber": 42,
+        "metro": "нет",
+        "latitude": 53.665960, 
+        "longitude": 23.852624
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 66.49,
+    "room": 1,
+    "square": 27.5,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 0,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "id_room" : 14,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Октябрьский",
+        "streetName": "Пролетарская",
+        "streetType": "ул",
+        "houseNumber": 73,
+        "metro": "нет",
+        "latitude": 53.685940, 
+        "longitude": 23.856496
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 64.95,
+    "room": 2,
+    "square": 54.7,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 4,
+    "id_room" : 15,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Октябрьский",
+        "streetName": "Озёрское",
+        "streetType": "ш",
+        "houseNumber": "32/2",
+        "metro": "нет",
+        "latitude": 53.691208, 
+        "longitude": 23.881101
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 108.08,
+    "room": 4,
+    "square": 200.7,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 1,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "id_room" : 16,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {               
+        "district": "Центральный",
+        "streetName": "Ленина",
+        "streetType": "ул",
+        "houseNumber": 2,
+        "metro": "нет",
+        "latitude": 52.422903, 
+        "longitude": 31.014021 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 78.28,
+    "room": 1,
+    "square": 25.7,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 0,
+        "playground": 1,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "id_room" : 17,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address": [
+      {
+        "district": "Залинейный",
+        "streetName": "Островского",
+        "streetType": "ул",
+        "houseNumber": 99,
+        "metro": "нет",
+        "latitude": 52.422233, 
+        "longitude": 30.973381
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 54.26,
+    "room": 3,
+    "square": 65.5,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "id_room" : 18,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Советский",
+        "streetName": "Речной",
+        "streetType": "пер",
+        "houseNumber": "34А",
+        "metro": "нет",
+        "latitude": 52.402919, 
+        "longitude": 30.998255  
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 52.94,
+    "room": 2,
+    "square": 44.1,
+    "beds":[
+      {
+        "bed": 5,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "id_room" : 19,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Советский",
+        "streetName": "Барыкина",
+        "streetType": "ул",
+        "houseNumber": 147,
+        "metro": "нет",
+        "latitude": 52.419794, 
+        "longitude": 30.967371
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 62.71,
+    "room": 4,
+    "square": 180.9,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 1,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "id_room" : 20,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Железнодорожный",
+        "streetName": "Советская",
+        "streetType": "ул",
+        "houseNumber": 163,
+        "metro": "нет",
+        "latitude": 52.475325, 
+        "longitude": 30.977495
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 36.68,
+    "room": 2,
+    "square": 48.7,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "id_room" : 21,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Железнодорожный",
+        "streetName": "Могилёвская",
+        "streetType": "ул",
+        "houseNumber": 23,
+        "metro": "нет",
+        "latitude": 52.458671, 
+        "longitude": 30.921260
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 13.87,
+    "room": 1,
+    "square": 40.1,
+    "beds":[
+      {
+        "bed": 5,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "id_room" : 22,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Советский",
+        "streetName": "Речицкий",
+        "streetType": "просп",
+        "houseNumber": 121,
+        "metro": "нет",
+        "latitude": 52.405122, 
+        "longitude": 30.913948
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 20.26,
+    "room": 2,
+    "square": 41.5,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "id_room" : 23,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Новобелицкий",
+        "streetName": "2-й Кольцевой",
+        "streetType": "туп",
+        "houseNumber": 21,
+        "metro": "нет",
+        "latitude": 52.427420,
+        "longitude": 31.089174
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 51.45,
+    "room": 1,
+    "square": 20.5,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 1,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 3,
+    "id_room" : 24,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Посёлок Чёнки",
+        "streetName": "50 лет СССР",
+        "streetType": "ул",
+        "houseNumber": 18,
+        "metro": "нет",
+        "latitude": 52.353755, 
+        "longitude": 30.980055
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 78.08,
+    "room": 2,
+    "square": 65.5,
+    "beds":[
+      {
+        "bed": 1,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 1,
+    "id_room" : 25,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Ленинский",
+        "streetName": "17 Сентября",
+        "streetType": "ул",
+        "houseNumber": 19,
+        "metro": "нет",
+        "latitude": 52.089172, 
+        "longitude": 23.692563
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 85.54,
+    "room": 3,
+    "square": 97.5,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 1,
+    "id_room" : 26,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Ленинский",
+        "streetName": "Маяковского",
+        "streetType": "ул",
+        "houseNumber": "44",
+        "metro": "нет",
+        "latitude": 52.095458, 
+        "longitude": 23.694386
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 77.82,
+    "room": 3,
+    "square": 105.7,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 1,
+    "id_room" : 27,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Граевка",
+        "streetName": "Фортечная",
+        "streetType": "ул",
+        "houseNumber": 96,
+        "metro": "нет",
+        "latitude": 52.112324,
+        "longitude": 23.695302
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 87.17,
+    "room": 2,
+    "square": 71.1,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 1,
+    "id_room" : 28,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Ленинский",
+        "streetName": "Юбилейная",
+        "streetType": "ул",
+        "houseNumber": 24,
+        "metro": "нет",
+        "latitude": 52.116483, 
+        "longitude": 23.655247
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 23.45,
+    "room": 1,
+    "square": 40.7,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 0,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 1,
+    "id_room" : 29,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Московский",
+        "streetName": "1-я Кедровая",
+        "streetType": "ул",
+        "houseNumber": 29,
+        "metro": "нет",
+        "latitude": 52.101151, 
+        "longitude": 23.838144
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 60.85,
+    "room": 3,
+    "square": 110.4,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 1,
+    "id_room" : 30,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Юго-Запад",
+        "streetName": "Мытная ",
+        "streetType": "ул",
+        "houseNumber": 20,
+        "metro": "нет",
+        "latitude": 52.067331, 
+        "longitude": 23.695195
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 62.98,
+    "room": 2,
+    "square": 55.5,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 3
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 1,
+    "id_room" : 31,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Гершоны",
+        "streetName": "Учительская ",
+        "streetType": "ул",
+        "houseNumber": "52Б",
+        "metro": "нет",
+        "latitude": 52.042832, 
+        "longitude": 23.698887
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 56.22,
+    "room": 1,
+    "square": 31.5,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 0,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 1,
+    "id_room" : 32,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Деревня Тельмы-1",
+        "streetName": "Зелёная",
+        "streetType": "ул",
+        "houseNumber": 62,
+        "metro": "нет",
+        "latitude": 52.122151, 
+        "longitude": 23.832547
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 51.91,
+    "room": 2,
+    "square": 68.4,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 3
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 0,
+        "playground": 1,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 1,
+    "id_room" : 33,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Старые Задворцы",
+        "streetName": "Энтузиастов",
+        "streetType": "ул",
+        "houseNumber": 25,
+        "metro": "нет",
+        "latitude": 52.127857, 
+        "longitude": 23.780058 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 80.22,
+    "room": 3,
+    "square": 78.8,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "id_room" : 34,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {               
+        "district": "Железнодорожный",
+        "streetName": "Титова",
+        "streetType": "ул",
+        "houseNumber": 31,
+        "metro": "нет",
+        "latitude": 55.198900, 
+        "longitude": 30.173728 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 43.22,
+    "room": 3,
+    "square": 160.7,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "id_room" : 35,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address": [
+      {
+        "district": "Лучёса",
+        "streetName": "Крупской",
+        "streetType": "пер",
+        "houseNumber": 15,
+        "metro": "нет",
+        "latitude": 55.162114, 
+        "longitude": 30.194335 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 99.69,
+    "room": 1,
+    "square": 48.2,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "id_room" : 36,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Первомайский",
+        "streetName": "Максима Горького",
+        "streetType": "ул",
+        "houseNumber": 65,
+        "metro": "нет",
+        "latitude": 55.173380, 
+        "longitude": 30.152042 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 59.99,
+    "room": 2,
+    "square": 44.7,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 3
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "id_room" : 37,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Октябрьский",
+        "streetName": "Софьи Панковой",
+        "streetType": "пр-д",
+        "houseNumber": "7к3",
+        "metro": "нет",
+        "latitude": 55.191197, 
+        "longitude": 30.264215 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 90.92,
+    "room": 4,
+    "square": 215.7,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "id_room" : 38,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Октябрьский",
+        "streetName": "8-я Стадионная",
+        "streetType": "ул",
+        "houseNumber": 24,
+        "metro": "нет",
+        "latitude": 55.204202, 
+        "longitude": 30.246303 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 13.24,
+    "room": 4,
+    "square": 196.7,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 1,
+        "coffeeMaker": 1,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "id_room" : 39,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Песковатик",
+        "streetName": "Королёва",
+        "streetType": "ул",
+        "houseNumber": 19,
+        "metro": "нет",
+        "latitude": 55.218507, 
+        "longitude": 30.213595 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 50.99,
+    "room": 2,
+    "square": 70.5,
+    "beds":[
+      {
+        "bed": 5,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "id_room" : 40,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Первомайский",
+        "streetName": "Петруся Бровки",
+        "streetType": "ул",
+        "houseNumber": "21А",
+        "metro": "нет",
+        "latitude": 55.161430, 
+        "longitude": 30.235311 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 84.71,
+    "room": 2,
+    "square": 41.1,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "id_room" : 41,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Агрогородок Новка",
+        "streetName": "Полевой",
+        "streetType": "пер",
+        "houseNumber": 9,
+        "metro": "нет",
+        "latitude": 55.125798, 
+        "longitude": 30.129261
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 11.97,
+    "room": 1,
+    "square": 27.8,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "id_room" : 42,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Мишково",
+        "streetName": "4-я Чепинская улица",
+        "streetType": "ул",
+        "houseNumber": 13,
+        "metro": "нет",
+        "latitude": 55.208705, 
+        "longitude": 30.133534
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 49.43,
+    "room": 2,
+    "square": 44.5,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 1,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 43,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {               
+        "district": "Центральный",
+        "streetName": "Победителей",
+        "streetType": "просп",
+        "houseNumber": 1,
+        "metro": "Немига",
+        "latitude": 53.905143, 
+        "longitude": 27.552264
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 87.95,
+    "room": 1,
+    "square": 30.7,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 0,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 44,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address": [
+      {
+        "district": "Чкаловский",
+        "streetName": "Воронянского",
+        "streetType": "ул",
+        "houseNumber": 48,
+        "metro": "Ковальская Слобода",
+        "latitude": 53.877232, 
+        "longitude": 27.548599
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 48.07,
+    "room": 1,
+    "square": 27.5,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 3
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 45,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Московский",
+        "streetName": "Дзержинского",
+        "streetType": "просп",
+        "houseNumber": 90,
+        "metro": "Петровщина",
+        "latitude": 53.867166, 
+        "longitude": 27.487540
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 52.52,
+    "room": 1,
+    "square": 38.2,
+    "beds":[
+      {
+        "bed": 5,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 1,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 46,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Запад",
+        "streetName": "Одинцова",
+        "streetType": "ул",
+        "houseNumber": 65,
+        "metro": "Каменная Горка",
+        "latitude": 53.900056,
+        "longitude": 27.441337
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 54.58,
+    "room": 1,
+    "square": 21.5,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 1,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 47,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Заводской",
+        "streetName": "Партизанский",
+        "streetType": "просп",
+        "houseNumber": 121,
+        "metro": "Автозаводская",
+        "latitude": 53.866879, 
+        "longitude": 27.658689
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 38.83,
+    "room": 2,
+    "square": 58.5,
+    "beds":[
+      {
+        "bed": 1,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 48,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Курасовщина",
+        "streetName": "Ландера",
+        "streetType": "ул",
+        "houseNumber": 38,
+        "metro": "Малиновка",
+        "latitude": 53.840761, 
+        "longitude": 27.491746
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 42.45,
+    "room": 3,
+    "square": 83.7,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 1,
+        "microwave": 1,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 49,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Кунцевщина",
+        "streetName": "Кунцевщина",
+        "streetType": "ул",
+        "houseNumber": 32,
+        "metro": "Каменная Горка",
+        "latitude": 53.912756, 
+        "longitude": 27.437662
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 97.73,
+    "room": 2,
+    "square": 48.5,
+    "beds":[
+      {
+        "bed": 1,
+        "bedAdditional": 1
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 0,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 50,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Центральный",
+        "streetName": "Долгиновский",
+        "streetType": "пр",
+        "houseNumber": 3,
+        "metro": "нет",
+        "latitude": 53.935326, 
+        "longitude": 27.546668
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 78.74,
+    "room": 1,
+    "square": 36.5,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 51,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Первомайский",
+        "streetName": "Сурганова",
+        "streetType": "ул",
+        "houseNumber": 26,
+        "metro": "Академия наук",
+        "latitude": 53.925712, 
+        "longitude": 27.597128
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 53.09,
+    "room": 3,
+    "square": 91.6,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 0,
+        "playground": 0,
+        "school": 0,
+        "kindergarten": 0,
+        "shop": 1,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 52,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Первомайский",
+        "streetName": "Якуба Коласа",
+        "streetType": "ул",
+        "houseNumber": 52,
+        "metro": "нет",
+        "latitude": 53.937941, 
+        "longitude": 27.606432
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 67.57,
+    "room": 1,
+    "square": 40.7,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 0,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 0
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 53,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Уручье",
+        "streetName": "Независимости",
+        "streetType": "просп",
+        "houseNumber": 179,
+        "metro": "Уручье",
+        "latitude": 53.946499, 
+        "longitude": 27.688559
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 64.24,
+    "room": 4,
+    "square": 250.4,
+    "beds":[
+      {
+        "bed": 2,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 1,
+        "oven": 0,
+        "coffeeMaker": 1,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 54,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room2.png",
+    "address":[
+      {
+        "district": "Первомайский ",
+        "streetName": "Макаёнка",
+        "streetType": "ул",
+        "houseNumber": 7,
+        "metro": "Московская",
+        "latitude": 53.925805, 
+        "longitude": 27.628713 
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 31.17,
+    "room": 3,
+    "square": 68.7,
+    "beds":[
+      {
+        "bed": 3,
+        "bedAdditional": 3
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 0,
+        "coffeeMaker": 0,
+        "microwave": 1,
+        "dishes": 0,
+        "dishwasher": 1,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 0,
+        "shop": 0,
+        "cafe": 1
+      }
+    ]
+  },
+  {
+    "id" : 5,
+    "id_room" : 55,
+    "img" : "https://gsergeyp.github.io/sdaem/img/rooms/room1.png",
+    "address":[
+      {
+        "district": "Сельхозпосёлок",
+        "streetName": "1-й Измайловский",
+        "streetType": "пер",
+        "houseNumber": 51,
+        "metro": "нет",
+        "latitude": 53.946880, 
+        "longitude": 27.592068
+      }
+    ],
+    "msg": "Какое-то описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание квартиры, описание",
+    "price": 42.45,
+    "room": 4,
+    "square": 104.7,
+    "beds":[
+      {
+        "bed": 4,
+        "bedAdditional": 2
+      }
+    ],
+    "property":[
+      {
+        "gasStove": 0,
+        "oven": 1,
+        "coffeeMaker": 0,
+        "microwave": 0,
+        "dishes": 1,
+        "dishwasher": 0,
+        "fridge": 1,
+        "playground": 1,
+        "school": 1,
+        "kindergarten": 1,
+        "shop": 1,
+        "cafe": 1
+      }
+    ]
+  }
+]

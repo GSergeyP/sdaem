@@ -1,0 +1,46 @@
+@import '../../../common/scss/variables.scss';
+
+// typography
+.newsgroup-h2 {
+  font-family: Inter;
+	font-size:   $fontSize25;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight30;
+	color:       $primary;
+}
+///////////////////////////////
+.block {
+  position: relative;
+  display: block;
+}
+.news {
+  display: block;
+  background-image: url('../../../common/img/general/bg2.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 100%;
+}
+.newsgroup {
+  display: block;
+  position: relative;
+  top: -14px;   /////////////////////
+  height: 724px;
+  background: linear-gradient(90deg, rgb(148, 175, 255, 0.1) 0%, rgb(78, 100, 249, 0.1) 94.5%);
+  background-repeat: no-repeat;
+  margin-bottom: -15px;
+}
+.newsgroup-h2 {
+  position: relative;
+  top: 63px;
+  left: 80px;
+}
+.newsgroup-item {
+  display: grid;
+  position: relative;
+  top: 88px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30.1px;
+  margin: 0 auto;
+  width: 1278.2px;
+}

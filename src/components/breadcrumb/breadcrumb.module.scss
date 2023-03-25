@@ -1,0 +1,56 @@
+@import '../../common/scss/variables.scss';
+
+// typography
+.h2 {
+  font-family: Inter;
+	font-size:   $fontSize30;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight100;
+	color:       $primary;
+}
+.a,
+.span {
+  font-family: Inter;
+  font-size:   $fontSize14;
+  font-style:  $fontStyleNormal;
+  font-weight: $fontWeight400;
+  line-height: $lineHeight100; 
+}
+///////////////////////////////
+.div {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.h2 {
+  margin-top: 21px;
+  white-space: nowrap;
+  width: max-content;
+}
+.house {
+  display: block;
+  position: relative;
+  top: 1px;
+  width: 12px;
+  height: 12px;
+  fill: $fivefold;
+}
+.a {
+  text-decoration: none;
+  margin-left: 6.5px;
+  margin-top: 1px;
+  color: $fivefold;
+}
+span {
+  display: table-cell;
+  margin-top: 1px;
+  color: $elevenfold;
+  .point {
+    width: 4px;
+    height: 4px;
+    margin: 0 6.5px;
+    vertical-align: middle;
+    fill: $fivefold;
+  }
+}

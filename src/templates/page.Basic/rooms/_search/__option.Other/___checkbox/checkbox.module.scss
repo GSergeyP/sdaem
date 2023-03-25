@@ -1,0 +1,70 @@
+@import '../../../../../../common/scss/variables.scss';
+
+// typography
+.label span {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight400;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+///////////////////////////////
+.span-checkbox {
+  display: grid;
+  position: relative;
+  top: 70px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 1242px;
+  margin: 0 auto;
+}
+.label {
+  margin-bottom: 9px;
+}
+.checkbox {
+  display: none;
+}
+.checkbox + span {
+  display: block;
+  position: relative;
+  padding: 4px 0 0 31px;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+}
+.checkbox + span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: rgba(102, 78, 249, 0.1);
+  border: 1px solid rgba(102, 78, 249, 0.1);
+  border-radius: 5px;
+}
+.checkbox + span:hover::before {
+  content: url('../../../../../../common/svg/mark.svg');
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 12px;
+  padding: 4px 0;
+  text-align: center;
+  background: rgba(102, 78, 249, 0.1);
+  border: 1px solid rgba(102, 78, 249, 0.1);
+  border-radius: 5px;
+}
+.checkbox:checked + span::after {
+  content: url('../../../../../../common/svg/mark.svg');
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 12px;
+  padding: 4px 0;
+  text-align: center;
+  background-color: $fivefold;
+  border: 1px solid $fivefold;
+  border-radius: 5px;
+}

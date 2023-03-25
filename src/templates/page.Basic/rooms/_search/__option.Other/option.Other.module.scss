@@ -1,0 +1,138 @@
+@import '../../../../../common/scss/variables.scss';
+
+// typography
+.h4 {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight17;
+	color:       $fivefold;
+}
+.span-button {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight600;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+.content {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight500;
+	line-height: $lineHeight17;
+	color:       $primary;
+}
+///////////////////////////////
+.container {
+  width: 100%;
+  height: 244px;
+  box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.08);
+}
+.block-h4 {
+  width: 100%;
+  height: 45px;
+  .h4 {
+    display: inline-block;
+    margin-top: 18px;
+    white-space: nowrap;
+    &.item1 {
+      margin-left: 101px;
+    }
+    &.item2 {
+      margin-left: 134px;
+    }
+    &.item3 {
+      margin-left: 206px;
+    }
+    &.active {
+      display: none;
+    }
+  }
+}
+////////////////////////////
+.block-button {
+  position: relative;
+  width: 100%;
+  height: 37px;
+  .span-button {
+    position: absolute;
+    width: 186px;
+    height: 25px;
+    padding-top: 8px;
+    padding-left: 10px;
+    background-color: $quaternary;
+    border-radius: 20px;
+    border: 2px solid $quaternary;
+    color: $elevenfold;
+    &.item1 {
+      left: 101px;
+    }
+    &.item2 {
+      left: 350px;
+    }
+    &.item3 {
+      left: 599px;
+    }
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(102, 78, 249, 0.1);
+    }
+    &.item {
+      border-color: $fivefold;
+      background-color: $secondary;
+    }
+    .span-button__icon {
+      position: absolute;
+      top: 8px;
+      left: 160px;
+      width: 36px;
+      height: 18px;
+      stroke: $fivefold;
+    }
+  }
+  .body {
+    position: absolute;
+    top: 45px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    border-radius: 10px;
+    background-color: $secondary;
+    box-shadow: 0px 0px 40px rgba(135, 124, 202, 0.3);
+    list-style-type: none;
+    z-index: 5;
+    &.item1 {
+      left: 101px;
+    }
+    &.item2 {
+      left: 350px;
+    }
+    &.item3 {
+      left: 599px;
+    }
+    .content {
+      padding: 7px 14px;
+      border-radius: 10px;
+      color: $primary;
+      cursor: pointer;
+      &:hover {
+        background-color: $quaternary;
+      }
+    }
+  }
+  .span-button__none {
+    display: none;
+  }
+  .body-none {
+    display: none;
+    .content-none {
+      display: none;
+    }
+  }
+}
+
+
+

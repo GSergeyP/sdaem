@@ -1,0 +1,93 @@
+@import '../../../../../common/scss/variables.scss';
+
+// typography
+.h2 {
+  font-family: Inter;
+	font-size:   $fontSize18;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight700;
+	line-height: $lineHeight22;
+  color:       $primary;
+}
+.a,
+.button {
+  font-family: Inter;
+	font-size:   $fontSize14;
+	font-style:  $fontStyleNormal;
+	font-weight: $fontWeight400;
+	line-height: $lineHeight14;
+  color:       $twentytwofold;
+}
+///////////////////////////////
+.h2 {
+  position: relative;
+  left: 31px;
+  &.item1 {
+    top: -15px;
+  }
+  &.item2 {
+    top: 162px;
+  }
+  &.item3 {
+    top: 319px;
+  }
+}
+.span {
+  color: $eighteenfold;
+} 
+.div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  position: relative;
+  left: 32px;
+  width: 297px;
+  margin-bottom: 7.5px;
+  &.item1 {
+    top: -118px;
+  }
+  &.item2 {
+    top: -156px;
+  }
+  &.item3 {
+    top: 157px;
+    flex-direction: column;
+    .a {
+      margin-bottom: 13px;
+    }
+  }
+  &.hide {
+    display: none;
+  }
+  .a {
+    text-decoration: none;
+    &:hover {
+      margin-left: 10px;
+    }
+  }
+}
+.button {
+  position: relative;
+  top: -153px;
+  left: 29px;
+  width: fit-content;
+  border: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid $twentytwofold;
+  background-color: $secondary;
+  box-shadow: 0px -15px $secondary;
+  cursor: pointer;
+  &:hover {
+    margin-left: 10px;
+  }
+}
+.icon {
+  width: 10px;
+  height: 10px;
+  margin-left: 3px;
+  stroke: $twentytwofold;
+  &.rotate {
+    transform: rotate(180deg);
+  }
+}
