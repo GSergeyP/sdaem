@@ -35,22 +35,22 @@ const linksDataTmp = (props: any) => {
     {
       classes: clsx(style.a, style.item1, {[style.active]: props === 'item1'}),
       title: 'Квартиры на сутки',
-      url: '',
+      url: 'sdaem/',
     },
     {
       classes: clsx(style.a, style.item2, {[style.active]: props === 'item2'}),
       title: 'Коттеджи и усадьбы',
-      url: 'error',
+      url: 'sdaem/error',
     },
     {
       classes: clsx(style.a, style.item3, {[style.active]: props === 'item3'}),
       title: 'Бани и сауны',
-      url: 'error',
+      url: 'sdaem/error',
     },
     {
       classes: clsx(style.a, style.item4, {[style.active]: props === 'item4'}),
       title: 'Авто напрокат',
-      url: 'error',
+      url: 'sdaem/error',
     }
   ])
 };
