@@ -16,7 +16,7 @@ const Rooms = () => {
               key={index} 
               data={linksData}
               title={item.city}
-              url={`rooms/${item.id}`} />
+              url={`sdaem/rooms/${item.id}`} />
           ))
         }
       </Tags>
