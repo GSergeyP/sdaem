@@ -24,7 +24,7 @@ const Info = (props: {[key: string]: any}) => {
     (props.data.district.length > 0 ) ? DISTRICT = props.data.district : DISTRICT = '&';
     (props.data.metro.length > 0) ? METRO = props.data.metro : METRO = '&';
 
-    navigate(`/rooms/${CITY}/${ROOM}/${PRICEFROM}/${PRICEBEFORE}/${BED}/${DISTRICT}/${METRO}`);
+    navigate(`../../../../../../../../../sdaem/rooms/${CITY}/${ROOM}/${PRICEFROM}/${PRICEBEFORE}/${BED}/${DISTRICT}/${METRO}`);
   }
 
   return(

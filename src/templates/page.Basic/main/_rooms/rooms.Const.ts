@@ -61,7 +61,7 @@ const linksData = [
   {
     classes: style.a, 
     title: 'Посмотреть все',
-    url: 'rooms/&/&/&/&/&/&/&',
+    url: './sdaem/rooms/&/&/&/&/&/&/&',
     icon: {
       icon: 'mark',
       classes: style['a-icon'],

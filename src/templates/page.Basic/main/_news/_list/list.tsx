@@ -23,7 +23,7 @@ const List = () => {
         {    
         data.map((item: {[key: string]: any}, index: number) => (
           <li key={index} className={style.li}>
-            <Links data={[{classes: style.a, url: `news/${item.id}`}]}>
+            <Links data={[{classes: style.a, url: `sdaem/news/${item.id}`}]}>
               {item.title}
               <br />
               <span className={style.span}>{item.date}</span>
@@ -35,7 +35,7 @@ const List = () => {
           <Links 
             data={[{
               classes: style['a-other'], 
-              url: 'newsgroup', 
+              url: 'sdaem/newsgroup', 
               title: 'Посмотреть все',
               icon: {
                 icon: 'mark',

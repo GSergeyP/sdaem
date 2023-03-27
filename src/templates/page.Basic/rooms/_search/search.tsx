@@ -70,7 +70,7 @@ const Search = (props: {[key: string]: any}) => {
       (props.data.district.length > 0) ? DISTRICT = props.data.district : DISTRICT = '&';
       (props.data.metro.length > 0) ? METRO = props.data.metro : METRO = '&';
 
-      navigate(`/rooms/${CITY}/${ROOM}/${PRICEFROM}/${PRICEBEFORE}/${BED}/${DISTRICT}/${METRO}`);
+      navigate(`../../../sdaem/rooms/${CITY}/${ROOM}/${PRICEFROM}/${PRICEBEFORE}/${BED}/${DISTRICT}/${METRO}`);
     }
     ////////////////////////////////////
     let apartmentRentals = [],
@@ -117,8 +117,7 @@ const Search = (props: {[key: string]: any}) => {
   const handleClickClear = () => {
     let CITY;
     (props.data.id) ? CITY = props.data.id : CITY = '&';
-    navigate(`/rooms/${CITY}`);
-    navigate(0);
+    navigate(`../../../../../../../../../redirect/${CITY}`);
  }
 
   //Отправка данных
@@ -205,7 +204,7 @@ const Search = (props: {[key: string]: any}) => {
     (objClone.district.length > 0) ? DISTRICT = objClone.district : DISTRICT = '&';
     (objClone.metro.length > 0) ?  METRO = objClone.metro : METRO = '&';
 
-    navigate(`/rooms/${CITY}/${ROOM}/${PRICEFROM}/${PRICEBEFORE}/${BED}/${DISTRICT}/${METRO}`)
+    navigate(`../../../../../../../../../sdaem/rooms/${CITY}/${ROOM}/${PRICEFROM}/${PRICEBEFORE}/${BED}/${DISTRICT}/${METRO}`)
 
     setPriceFrom('');
     setPriceBefore('');

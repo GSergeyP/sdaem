@@ -27,7 +27,7 @@ const App = () => {
           <Route path='/sdaem/contacts' element={<Contacts />} />
           <Route path='/sdaem/nolink' element={<Error />} />
           <Route path='/sdaem/rooms/:CITY?/:ROOM?/:PRICEFROM?/:PRICEBEFORE?/:BED?/:DISTRICT?/:METRO?' element={<Rooms />} />
-          <Route path='/sdaem/redirect/:CITY?' element={<Redirect />} />
+          <Route path='/redirect/:CITY?' element={<Redirect />} />
           <Route path='*' element={<Error />} />
         </Routes>
       </main>
