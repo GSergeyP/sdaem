@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import style from './search.module.scss';
 
-const URL = ['https://gsergeyp.github.io/sdaem/json/rooms.json'];
+const URL = ['http://localhost:3000/json/rooms.json'];
 ///////////////////////////////////////////
 
 const classesData = (props: boolean) => {

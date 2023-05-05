@@ -20,7 +20,7 @@ const linksData = [
   {
     classes: style.a,
     title: 'Вернуться на главную',
-    url: 'sdaem/',
+    url: '',
     icon: {
       icon: 'house',
       classes: style['a-icon'],

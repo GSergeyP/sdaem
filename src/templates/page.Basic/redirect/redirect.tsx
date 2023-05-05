@@ -11,10 +11,10 @@ const Redirect = () => {
   let { CITY } = useParams(); 
 
   useEffect(() => {
-    if(CITY) navigate(`../../sdaem/rooms/${CITY}`);
+    if(CITY) navigate(`/rooms/${CITY}`);
     else {
       dispatch(redirectState(true));
-      navigate('../../sdaem/rooms/&/&/&/&/&/&/&');
+      navigate('/rooms/&/&/&/&/&/&/&');
     }
   }, [CITY, dispatch, navigate])
   

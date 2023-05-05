@@ -3,7 +3,7 @@ import style from './modal.module.scss';
 
 const imgData = [
   {
-    src: 'https://gsergeyp.github.io/sdaem/img/photo/photoBig.png',
+    src: 'http://localhost:3000/img/photo/photoBig.png',
     classes: style.img,
     alt: 'SDAEM.BY',
   }

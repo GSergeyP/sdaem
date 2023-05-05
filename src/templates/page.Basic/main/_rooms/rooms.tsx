@@ -26,7 +26,7 @@ const Rooms = () => {
 
   const [data, setData] = useState<object[]>([]),
         [dataReception, setDataReception] = useState<object[]>([]),
-        [city, setCity] = useState<number | null>(ID),
+        [city, setCity] = useState<number | null>(null),
         [currentPage, setCurrentPage] = useState<number>(1),
         [cityTitle, setCityTitle] = useState<string>('Беларуси'),
         [districtActive, setDistrictActive] = useState<boolean>(false),
@@ -40,10 +40,6 @@ const Rooms = () => {
   const districtClasses = districtClassesData(districtActive);
   const metroClasses = metroClassesData(metroActive);
   
-  useEffect(() => {
-    setCity(ID);
-  }, [ID]);
-
   useEffect(() => {
 
     if(ID) setCity(ID);
@@ -81,7 +77,7 @@ const Rooms = () => {
       setMetroTitle('Метро');
       setCurrentPage(1);
     }
-  }, [city]);
+  }, [ID, city]);
 
 //Сортировка по районам//////////////////////////////////////////////////
   const isToggleDistrictOpen = () => {

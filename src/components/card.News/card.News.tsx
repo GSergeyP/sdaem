@@ -31,7 +31,7 @@ const CardNews = (props: {listCurrentData: listCurrentData[]} ) => {
               />
               <Tags type='div' data={[{classes: style['card-bottom']}]}>
                 <Tags type='span' data={[{classes: style['card-bottom__span'], title: item.date}]} />
-                <Links data={[{classes: style['card-bottom__a'], title: 'Читать', url: `sdaem/news/${item.id}`}]} />
+                <Links data={[{classes: style['card-bottom__a'], title: 'Читать', url: `news/${item.id}`}]} />
               </Tags>
             </div>
           ))

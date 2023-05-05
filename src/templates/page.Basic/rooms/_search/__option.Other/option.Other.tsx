@@ -54,7 +54,7 @@ const DataPoint = (dataPoint1: string, dataPoint2: string, props: {[key: string]
       (props.data.data.priceFrom) ? PRICEFROM = props.data.data.priceFrom : PRICEFROM = '&';
       (props.data.data.priceBefore) ? PRICEBEFORE = props.data.data.priceBefore : PRICEBEFORE = '&';
 
-      navigate(`../../../sdaem/rooms/${CITY}/${ROOM}/${PRICEFROM}/${PRICEBEFORE}/${BED}/${DISTRICT}/${METRO}`)
+      navigate(`/rooms/${CITY}/${ROOM}/${PRICEFROM}/${PRICEBEFORE}/${BED}/${DISTRICT}/${METRO}`)
     }
     //////////////////////////////////////////////////
 

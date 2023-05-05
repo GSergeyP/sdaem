@@ -1,4 +1,4 @@
-const URL = ['https://gsergeyp.github.io/sdaem/json/rooms.json'];
+const URL = ['http://localhost:3000/json/rooms.json'];
 ////////////////////////////////////
 
 const pageSizeTile = 6;

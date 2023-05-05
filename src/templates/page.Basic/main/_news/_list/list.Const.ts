@@ -1,3 +1,3 @@
-const URL = ['https://gsergeyp.github.io/sdaem/json/newsgroup.json'];
+const URL = ['http://localhost:3000/json/newsgroup.json'];
 
 export { URL }

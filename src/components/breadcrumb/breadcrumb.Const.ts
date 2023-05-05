@@ -16,7 +16,7 @@ const h2Data = [
 
 const linkDataMain = [
   {
-    url: 'sdaem/', 
+    url: '', 
     icon: {
       icon: 'house', 
       classes: style.house

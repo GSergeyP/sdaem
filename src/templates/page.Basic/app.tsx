@@ -18,15 +18,15 @@ const App = () => {
     <Header /> 
       <main>
         <Routes>
-          <Route path='/sdaem/' element={<Main />}>
+          <Route path='/' element={<Main />}>
             <Route index element={<RoomsSearch />} />
-            <Route path='/sdaem/error' element={<ErrorSearch />} />
+            <Route path='/error' element={<ErrorSearch />} />
           </Route>
-          <Route path='/sdaem/newsgroup' element={<Newsgroup />} />
-          <Route path='/sdaem/news/:ID' element={<News />} />
-          <Route path='/sdaem/contacts' element={<Contacts />} />
-          <Route path='/sdaem/nolink' element={<Error />} />
-          <Route path='/sdaem/rooms/:CITY?/:ROOM?/:PRICEFROM?/:PRICEBEFORE?/:BED?/:DISTRICT?/:METRO?' element={<Rooms />} />
+          <Route path='/newsgroup' element={<Newsgroup />} />
+          <Route path='/news/:ID' element={<News />} />
+          <Route path='/contacts' element={<Contacts />} />
+          <Route path='/nolink' element={<Error />} />
+          <Route path='/rooms/:CITY?/:ROOM?/:PRICEFROM?/:PRICEBEFORE?/:BED?/:DISTRICT?/:METRO?' element={<Rooms />} />
           <Route path='/redirect/:CITY?' element={<Redirect />} />
           <Route path='*' element={<Error />} />
         </Routes>

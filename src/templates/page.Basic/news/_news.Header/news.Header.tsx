@@ -10,7 +10,7 @@ const NewsHeader = (props: attributeTags) => {
         props.newsHeader.map((item: attributeTags, index: number) => (
           <div key={index} className={style.breadcrumb}>
             <Breadcrumb 
-              linkData={[{url: 'sdaem/newsgroup', title: 'Новости'}]}
+              linkData={[{url: 'newsgroup', title: 'Новости'}]}
               data={item.title} 
             />
             <span className={style.date}>{item.date}</span>  

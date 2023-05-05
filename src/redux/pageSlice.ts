@@ -40,7 +40,7 @@ export const pageSlice = createSlice({
           password = action.payload.password;
 
       if(login === 'admin' && password === 'admin') {
-        const content = [{sessionID: '123456789', name: 'Dmitriy', url: 'https://gsergeyp.github.io/sdaem/img/photo/photo.png'}]
+        const content = [{sessionID: '123456789', name: 'Dmitriy', url: 'http://localhost:3000/img/photo/photo.png'}]
         localStorage.setItem('sessionID', JSON.stringify(content));
         state.pageLoading = 'pageBasic';
       }

@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import style from './rooms.module.scss';
 
-const URL = ['https://gsergeyp.github.io/sdaem/json/rooms.json'];
+const URL = ['http://localhost:3000/json/rooms.json'];
 ////////////////////////////////////
 
 const pageSize = 3;
@@ -61,7 +61,7 @@ const linksData = [
   {
     classes: style.a, 
     title: 'Посмотреть все',
-    url: './sdaem/rooms/&/&/&/&/&/&/&',
+    url: 'rooms/&/&/&/&/&/&/&',
     icon: {
       icon: 'mark',
       classes: style['a-icon'],

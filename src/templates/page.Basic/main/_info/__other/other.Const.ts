@@ -1,4 +1,4 @@
-const URL = 'https://gsergeyp.github.io/sdaem/img/services/';
+const URL = 'http://localhost:3000/img/services/';
 
 const house: string[] = [
   'house0.png',

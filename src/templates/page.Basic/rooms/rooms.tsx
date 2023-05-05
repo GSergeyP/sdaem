@@ -77,7 +77,7 @@ const Rooms = () => {
     }
     else if(ID && Number(ID) !== Number(CITY)) {
       setIsParentDataPagination(true)
-      navigate(`../../../../../../../../../sdaem/rooms/${ID}/${ROOM}/${PRICEFROM}/${PRICEBEFORE}/${BED}/${DISTRICT}/${METRO}`);
+      navigate(`/rooms/${ID}/${ROOM}/${PRICEFROM}/${PRICEBEFORE}/${BED}/${DISTRICT}/${METRO}`);
     }
 
   ////////////////////////////////////////////////////////////// 

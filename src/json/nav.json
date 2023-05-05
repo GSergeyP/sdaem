@@ -2,51 +2,51 @@
  {
   "id": 1,
   "title": "Главная",
-  "url": "sdaem/"
+  "url": ""
  },
  {
   "id": 2,
   "title": "Новости",
-  "url": "sdaem/newsgroup"
+  "url": "newsgroup"
  },
  {
   "id": 3,
   "title": "Размещение и тарифы",
-  "url": "sdaem/nolink"
+  "url": "nolink"
  },
  {
   "id": 4,
   "title": "Объявления на карте",
-  "url": "sdaem/nolink"
+  "url": "nolink"
  },
  {
   "id": 5,
   "title": "Контакты",
-  "url": "sdaem/contacts"
+  "url": "contacts"
  },
  {
   "id": 6,
   "title": "Коттеджи и усадьбы",
-  "url": "sdaem/nolink"
+  "url": "nolink"
  },
  {
   "id": 7,
   "title": "Бани и сауны",
-  "url": "sdaem/nolink"
+  "url": "nolink"
  },
  {
   "id": 8,
   "title": "Авто напрокат",
-  "url": "sdaem/nolink"
+  "url": "nolink"
  },
  {
   "id": 9,
   "title": "+ Разместить объявление",
-  "url": "sdaem/nolink"
+  "url": "nolink"
  },
  {
   "id": 10,
   "title": "Закладки",
-  "url": "sdaem/nolink"
+  "url": "nolink"
  }
 ]
